@@ -1,0 +1,17 @@
+AYAN TRAVELLING APK — BUILD FROM ANDROID PHONE
+
+This is the Android Studio source project, not an APK installer yet.
+The included GitHub Actions workflow builds the APK in the cloud, so a computer is not required.
+
+STEPS:
+1. On GitHub, create a NEW repository named Ayan-Travelling-Android. Public or Private is fine.
+2. Upload the CONTENTS of this ZIP to the repository root (do not upload the ZIP itself). Make sure .github/workflows/build-apk.yml is included. In the Android GitHub website, enable “Show hidden files” if needed so the .github folder is uploaded.
+3. Open the repository's Actions tab.
+4. Select “Build Ayan Travelling APK”. Tap “Run workflow” if shown, or wait for the automatic run after upload.
+5. Open the completed green run. In the Artifacts section, tap “Ayan-Travelling-APK” to download the artifact ZIP.
+6. Open the downloaded artifact ZIP and extract app-debug.apk. Tap the APK to install; Android may ask to allow installs from Chrome/Files.
+
+If the .github folder cannot be uploaded from the mobile GitHub interface, use GitHub's web editor to create the file .github/workflows/build-apk.yml and paste the workflow from this ZIP.
+
+Package ID: com.ayantravelling.app
+App label: Ayan Travelling and CSC Centre

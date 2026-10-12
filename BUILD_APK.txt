@@ -1,0 +1,21 @@
+AYAN TRAVELLING AND CSC CENTRE — ANDROID APP PROJECT
+
+This is an Android Studio project wrapping the supplied HTML file in an Android WebView.
+
+HOW TO BUILD:
+1. Install Android Studio on Windows/Mac/Linux.
+2. Open this folder as an existing Android Studio project.
+3. Wait for Gradle Sync to finish.
+4. Connect an Android phone or use an emulator.
+5. For a test APK:
+   Build > Build Bundle(s) / APK(s) > Build APK(s)
+6. The APK will be in:
+   app/build/outputs/apk/debug/app-debug.apk
+
+IMPORTANT:
+- The supplied HTML is kept as app/src/main/assets/index.html.
+- Internet permission is enabled for the existing online/cloud functions.
+- Existing HTML/JavaScript was not rewritten.
+- The current HTML's cloud-sync mechanism remains the one already present in the file.
+- If the app needs Android file upload, camera, notifications, or background services,
+  those can be added in a later version.
